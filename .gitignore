@@ -1,0 +1,17 @@
+node_modules/
+*.baiduyun.uploading.cfg
+.DS_Store
+chengchong_CV_cn.pdf
+
+# 根目录原始素材（已复制到 assets）
+/me.png
+/graphgs.mp4
+/horizonstream.mp4
+/longstream.mp4
+/vggt4d.mp4
+/reggs.mp4
+/rgbonlyslam.mp4
+/gvkf.png
+/s3pogs.png
+/decoupled.png
+/prompt.png
