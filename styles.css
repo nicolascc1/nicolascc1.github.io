@@ -173,6 +173,11 @@ hr {
     object-fit: cover;
 }
 
+.paper-media .paper-preview {
+    object-fit: contain;
+    background: #fff;
+}
+
 .placeholder-media {
     background: #eee;
 }

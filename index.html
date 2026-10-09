@@ -70,15 +70,17 @@
     <div id="news" class="section">
         <h2>News</h2>
         <ul>
-            <li><b>[2026.02]</b> <span class="new-tag">NEW!</span> <a href="#">LongStream</a> is accepted to <b>CVPR 2026</b>.</li>
-            <li><b>[2026.02]</b> <span class="new-tag">NEW!</span> <a href="#">VGGT4D</a> is accepted to <b>CVPR 2026</b> (Findings).</li>
-            <li><b>[2025.07]</b> <a href="#">RegGS</a> is accepted to <b>ICCV 2025</b>.</li>
-            <li><b>[2025.07]</b> <a href="#">S3POGS</a> is accepted to <b>ICCV 2025</b>.</li>
-            <li><b>[2025.01]</b> <a href="#">GraphGS</a> is accepted to <b>ICLR 2025</b>.</li>
-            <li><b>[2025.01]</b> <a href="#">RGB-only GS SLAM</a> is accepted to <b>ICRA 2025</b>.</li>
-            <li><b>[2025.01]</b> <a href="#">Decoupled VR Generation</a> is accepted to <b>IEEE VR 2025</b> (Poster).</li>
-            <li><b>[2024.09]</b> <a href="#">GVKF</a> is accepted to <b>NeurIPS 2024</b>.</li>
-            <li><b>[2024.01]</b> <a href="#">Prompt, Plan, Perform</a> is accepted to <b>ICRA 2024</b>.</li>
+            <li><b>[2026.10]</b> <span class="new-tag">NEW!</span> <a href="#horizonstream">HorizonStream</a> is accepted to <b>NeurIPS 2026</b>.</li>
+            <li><b>[2026.10]</b> <span class="new-tag">NEW!</span> <a href="#anchor3r">Anchor3R</a> is accepted to <b>CoRL 2026</b> (<b>Oral</b>).</li>
+            <li><b>[2026.02]</b> <a href="#longstream">LongStream</a> is accepted to <b>CVPR 2026</b>.</li>
+            <li><b>[2026.02]</b> <a href="#vggt4d">VGGT4D</a> is accepted to <b>CVPR 2026</b> (Findings).</li>
+            <li><b>[2025.07]</b> <a href="#reggs">RegGS</a> is accepted to <b>ICCV 2025</b>.</li>
+            <li><b>[2025.07]</b> <a href="#s3pogs">S3POGS</a> is accepted to <b>ICCV 2025</b>.</li>
+            <li><b>[2025.01]</b> <a href="#graphgs">GraphGS</a> is accepted to <b>ICLR 2025</b>.</li>
+            <li><b>[2025.01]</b> <a href="#rgbonlyslam">RGB-only GS SLAM</a> is accepted to <b>ICRA 2025</b>.</li>
+            <li><b>[2025.01]</b> <a href="#decoupled">Decoupled VR Generation</a> is accepted to <b>IEEE VR 2025</b> (Poster).</li>
+            <li><b>[2024.09]</b> <a href="#gvkf">GVKF</a> is accepted to <b>NeurIPS 2024</b>.</li>
+            <li><b>[2024.01]</b> <a href="#prompt">Prompt, Plan, Perform</a> is accepted to <b>ICRA 2024</b>.</li>
         </ul>
     </div>
 
@@ -89,7 +91,7 @@
         <h2>Publications</h2>
         <p class="note">* denotes equal contribution. Representative papers listed below.</p>
 
-        <div class="paper">
+        <div class="paper" id="horizonstream">
             <div class="paper-media">
                 <video autoplay loop muted playsinline>
                     <source src="assets/papers/horizonstream_web.mp4" type="video/mp4">
@@ -98,12 +100,36 @@
             <div class="paper-text">
                 <b>HorizonStream: Long-Horizon Attention for Streaming 3D Reconstruction</b><br>
                 <b>Chong Cheng</b>, Peilin Tao, Nanjie Yao, Guanzhi Ding, Xianda Chen, Yuansen Du, Xiaoyang Guo, Wei Yin, Weiqiang Ren, Qian Zhang, Zhengqing Chen, Hao Wang<br>
-                <em>ArXiv, 2026</em><br>
-                <a href="#">[Paper]</a> <a href="#">[Project]</a> <a href="#">[Code]</a>
+                <em>NeurIPS, 2026</em><br>
+                <a href="https://arxiv.org/abs/2605.23889">[Paper]</a> <a href="https://3dagentworld.github.io/horizonstream/">[Project]</a> <a href="https://github.com/3DAgentWorld/HorizonStream">[Code]</a>
             </div>
         </div>
 
-        <div class="paper">
+        <div class="paper" id="anchor3r">
+            <div class="paper-media">
+                <img class="paper-preview" src="assets/papers/anchor3r.png" alt="Anchor3R reconstruction and camera trajectories on campus-scale sequences" loading="lazy">
+            </div>
+            <div class="paper-text">
+                <b>Anchor3R: Streaming 3D Reconstruction with Transient Anchors for Long-Horizon Visual Mapping</b><br>
+                Peilin Tao, <b>Chong Cheng</b>, Yuansen Du, Caiwei Song, Zhengqing Chen, Xiaoyang Guo, Wei Yin, Weiqiang Ren, Qian Zhang, Hainan Cui, Shuhan Shen<br>
+                <em>CoRL, 2026 (<b>Oral</b>)</em><br>
+                <a href="https://arxiv.org/abs/2606.05035">[Paper]</a> <a href="https://polar-explorer.github.io/Anchor3R-project-page/">[Project]</a>
+            </div>
+        </div>
+
+        <div class="paper" id="unposed">
+            <div class="paper-media">
+                <img class="paper-preview" src="assets/papers/unposed.png" alt="Unposed 3DGS novel-view rendering comparisons on outdoor scenes" loading="lazy">
+            </div>
+            <div class="paper-text">
+                <b>Unposed 3DGS Reconstruction with Probabilistic Procrustes Mapping</b><br>
+                <b>Chong Cheng*</b>, Zijian Wang*, Sicheng Yu, Yu Hu, Nanjie Yao, Hao Wang<br>
+                <em>NeurIPS (PhysWorldAI), 2026</em><br>
+                <a href="https://arxiv.org/abs/2507.18541">[Paper]</a>
+            </div>
+        </div>
+
+        <div class="paper" id="longstream">
             <div class="paper-media">
                 <video autoplay loop muted playsinline>
                     <source src="assets/papers/longstream_web.mp4" type="video/mp4">
@@ -113,11 +139,11 @@
                 <b>LongStream: Long-Sequence Autoregression Visual Geometry with Metric Scale</b><br>
                 <b>Chong Cheng</b>, Xianda Chen, Tao Xie, Wei Yin, Weiqiang Ren, Qian Zhang, Xiaoyang Guo, Hao Wang<br>
                 <em>CVPR, 2026</em><br>
-                <a href="#">[Paper]</a> <a href="#">[Project]</a> <a href="#">[Code]</a>
+                <a href="https://arxiv.org/abs/2602.13172">[Paper]</a> <a href="https://3dagentworld.github.io/longstream/">[Project]</a> <a href="https://github.com/3DAgentWorld/LongStream">[Code]</a>
             </div>
         </div>
 
-        <div class="paper">
+        <div class="paper" id="vggt4d">
             <div class="paper-media">
                 <video autoplay loop muted playsinline>
                     <source src="assets/papers/vggt4d_web.mp4" type="video/mp4">
@@ -127,11 +153,11 @@
                 <b>VGGT4D: Mining Motion Cues in Visual Geometry Transformers for 4D Scene Reconstruction</b><br>
                 Yu Hu*, <b>Chong Cheng*</b>, Sicheng Yu, Xiaoyang Guo, Hao Wang<br>
                 <em>CVPR, 2026 (Findings)</em><br>
-                <a href="#">[Paper]</a> <a href="#">[Project]</a>
+                <a href="https://arxiv.org/abs/2511.19971">[Paper]</a> <a href="https://3dagentworld.github.io/vggt4d/">[Project]</a> <a href="https://github.com/3DAgentWorld/VGGT4D">[Code]</a>
             </div>
         </div>
 
-        <div class="paper">
+        <div class="paper" id="reggs">
             <div class="paper-media">
                 <video autoplay loop muted playsinline>
                     <source src="assets/papers/reggs_web.mp4" type="video/mp4">
@@ -141,11 +167,11 @@
                 <b>RegGS: Unposed Sparse Views Gaussian Splatting with 3DGS Registration</b><br>
                 <b>Chong Cheng*</b>, Yu Hu*, Sicheng Yu, Beizhen Zhao, Zijian Wang, Hao Wang<br>
                 <em>ICCV, 2025</em><br>
-                <a href="#">[Paper]</a> <a href="#">[Project]</a> <a href="#">[Code]</a>
+                <a href="https://arxiv.org/abs/2507.08136">[Paper]</a> <a href="https://3dagentworld.github.io/reggs/">[Project]</a> <a href="https://github.com/3DAgentWorld/RegGS">[Code]</a>
             </div>
         </div>
 
-        <div class="paper">
+        <div class="paper" id="s3pogs">
             <div class="paper-media">
                 <img src="assets/papers/s3pogs.png" alt="S3POGS">
             </div>
@@ -153,11 +179,11 @@
                 <b>S3POGS: Outdoor Monocular SLAM with Global Scale-Consistent 3D Gaussian Pointmaps</b><br>
                 <b>Chong Cheng*</b>, Sicheng Yu*, Zijian Wang, Yifan Zhou, Hao Wang<br>
                 <em>ICCV, 2025</em><br>
-                <a href="#">[Paper]</a> <a href="#">[Project]</a> <a href="#">[Code]</a>
+                <a href="https://arxiv.org/abs/2507.03737">[Paper]</a> <a href="https://3dagentworld.github.io/S3PO-GS/">[Project]</a> <a href="https://github.com/3DAgentWorld/S3PO-GS">[Code]</a>
             </div>
         </div>
 
-        <div class="paper">
+        <div class="paper" id="graphgs">
             <div class="paper-media">
                 <video autoplay loop muted playsinline>
                     <source src="assets/papers/graphgs_web.mp4" type="video/mp4">
@@ -167,11 +193,11 @@
                 <b>GraphGS: Graph-guided Scene Reconstruction from Images with 3D Gaussian Splatting</b><br>
                 <b>Chong Cheng*</b>, Gaochao Song*, Yiyang Yao, Qinzheng Zhou, Gangjian Zhang, Hao Wang<br>
                 <em>ICLR, 2025</em><br>
-                <a href="#">[Paper]</a> <a href="#">[Project]</a> <a href="#">[Code]</a>
+                <a href="https://arxiv.org/abs/2502.17377">[Paper]</a> <a href="https://3dagentworld.github.io/graphgs/">[Project]</a> <a href="https://github.com/3DAgentWorld/GraphGS">[Code]</a>
             </div>
         </div>
 
-        <div class="paper">
+        <div class="paper" id="gvkf">
             <div class="paper-media">
                 <img src="assets/papers/gvkf.png" alt="GVKF">
             </div>
@@ -179,11 +205,11 @@
                 <b>GVKF: Gaussian Voxel Kernel Functions for Highly Efficient Surface Reconstruction in Open Scenes</b><br>
                 Gaochao Song*, <b>Chong Cheng*</b>, Hao Wang<br>
                 <em>NeurIPS, 2024</em><br>
-                <a href="#">[Paper]</a> <a href="#">[Project]</a> <a href="#">[Code]</a>
+                <a href="https://arxiv.org/abs/2411.01853">[Paper]</a> <a href="https://3dagentworld.github.io/gvkf/">[Project]</a> <a href="https://github.com/3DAgentWorld/GVKF">[Code]</a>
             </div>
         </div>
 
-        <div class="paper">
+        <div class="paper" id="rgbonlyslam">
             <div class="paper-media">
                 <video autoplay loop muted playsinline>
                     <source src="assets/papers/rgbonlyslam_web.mp4" type="video/mp4">
@@ -193,23 +219,22 @@
                 <b>RGB-only Gaussian Splatting SLAM for Unbounded Outdoor Scenes</b><br>
                 Sicheng Yu*, <b>Chong Cheng*</b>, Yifan Zhou, Xiaojun Yang, Hao Wang<br>
                 <em>ICRA, 2025</em><br>
-                <a href="#">[Paper]</a>
+                <a href="https://arxiv.org/abs/2502.15633">[Paper]</a> <a href="https://3dagentworld.github.io/opengs-slam/">[Project]</a> <a href="https://github.com/3DAgentWorld/OpenGS-SLAM">[Code]</a>
             </div>
         </div>
 
-        <div class="paper">
+        <div class="paper" id="decoupled">
             <div class="paper-media">
                 <img src="assets/papers/decoupled.png" alt="Decoupled VR">
             </div>
             <div class="paper-text">
                 <b>Exploring Decoupled Generation for Enhancing VR Interaction and Control</b><br>
                 <b>Chong Cheng</b>, Qinzheng Zhou, Jianfeng Zhang, Shiya Zeng, Hao Wang<br>
-                <em>IEEE VR, 2025 (Poster)</em><br>
-                <a href="#">[Paper]</a>
+                <em>IEEE VR, 2025 (Poster)</em>
             </div>
         </div>
 
-        <div class="paper">
+        <div class="paper" id="prompt">
             <div class="paper-media">
                 <img src="assets/papers/prompt.png" alt="Prompt Plan Perform">
             </div>
@@ -217,7 +242,7 @@
                 <b>Prompt, Plan, Perform: LLM-based Humanoid Control via Quantized Imitation Learning</b><br>
                 Jingkai Sun, Qiang Zhang, Yiqun Duan, Xiaoyang Jiang, <b>Chong Cheng</b>, Renjing Xu<br>
                 <em>ICRA, 2024</em><br>
-                <a href="#">[Paper]</a>
+                <a href="https://arxiv.org/abs/2309.11359">[Paper]</a>
             </div>
         </div>
     </div>
